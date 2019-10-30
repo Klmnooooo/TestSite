@@ -78,7 +78,7 @@ hr {
 	text-align: center;
 	position: relative;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6b4da8+0,4977c2+100 */
-	background: rgb(107,77,168); /* Old browsers */
+	background: rgb(107,77,25); /* Old browsers */
 	background: -moz-linear-gradient(left, rgba(107,77,168,1) 0%, rgba(73,119,194,1) 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(left, rgba(107,77,168,1) 0%, rgba(73,119,194,1) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to right, rgba(107,77,168,1) 0%, rgba(73,119,194,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -204,7 +204,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	height: auto;
 	text-align: center;
 	color: #fff;
-	background: url(../img/me.jpg) no-repeat center center;
+	background: url(../img/me4.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -238,7 +238,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d96b4da8', e
 }
 /* Skills Section */
 #skills {
-	padding: 100px 0;
+	/*padding: 100px 0;*/
+	padding-top: 60px;
+	padding-bottom: 100px;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6b4da8+0,4977c2+100 */
 	background: rgb(107,77,168); /* Old browsers */
 	background: -moz-linear-gradient(left, rgba(107,77,168,1) 0%, rgba(73,119,194,1) 100%); /* FF3.6-15 */
@@ -250,7 +252,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 	color: #fff;
 }
 #skills hr {
-	background: rgba(255,255,255,0.3);
+	background: rgba(255,255,255,0.5);
 }
 #skills .skill {
 	margin-bottom: 40px;
@@ -283,7 +285,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 	padding: 0px;
 }
 #breakerwhite {
-	padding: 10px 0;
+	padding: 30px 0;
+	background: #f6f6f6;
+}
+#breakerwhite2 {
+	padding: 30px 0;
 	background: #f6f6f6;
 }
 .chart {
@@ -441,7 +447,9 @@ ol.type li a:hover {
 }
 /* Achivements Section */
 #achievements {
-	padding: 100px 0;
+	/*padding: 100px 0;*/
+	padding-top: 60px;
+	padding-bottom: 100px;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6b4da8+0,4977c2+100 */
 	background: rgb(107,77,168); /* Old browsers */
 	background: -moz-linear-gradient(left, rgba(107,77,168,1) 0%, rgba(73,119,194,1) 100%); /* FF3.6-15 */
@@ -516,7 +524,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d96b4da8', e
 	color: #fff;
 }
 #contact hr {
-	background: rgba(255,255,255,0.3);
+	background: rgba(255,255,255,0.5);
 }
 #contact h3 {
 	padding-top: 20px;
@@ -526,6 +534,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d96b4da8', e
 }
 #contact form {
 	padding: 30px 0;
+	color: black;
 }
 #contact i.fa {
 	color: #121d1f;
@@ -645,21 +654,65 @@ header .intro-text {
 	margin-bottom: 20px;
 }
 }
-
-/* Resume Section */
-#resume {
-	padding: 100px 0;
-	background: #f6f6f6;
-	/*background: rgb(107,77,168); /* Old browsers */
-	/*background: -moz-linear-gradient(left, rgba(107,77,168,1) 0%, rgba(73,119,194,1) 100%); /* FF3.6-15 */
-	/*background: -webkit-linear-gradient(left, rgba(107,77,168,1) 0%, rgba(73,119,194,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	/*background: linear-gradient(to right, rgba(107,77,168,1) 0%, rgba(73,119,194,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', endColorstr='#4977c2', GradientType=1 ); /* IE6-9 */
+/* Resume and experience Section */
+#edTitle {
+	padding: 0px 0;
+	padding-top: 49px;
+	padding-bottom: 0px;
+	text-align: center;
+	/* background: #f6f6f6; */
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6b4da8+0,4977c2+100 */
+	background: rgb(107,77,168); /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(107,77,168,1) 0%, rgba(73,119,194,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(107,77,168,1) 0%, rgba(73,119,194,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(107,77,168,1) 0%, rgba(73,119,194,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', endColorstr='#4977c2', GradientType=1 ); /* IE6-9 */
+}
+#expTitle {
+	padding: 0px 0;
+	padding-top: 49px;
+	padding-bottom: 0px;
+	text-align: center;
+	/* background: #f6f6f6; */
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6b4da8+0,4977c2+100 */
+	background: rgb(107,77,168); /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(107,77,168,1) 0%, rgba(73,119,194,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(107,77,168,1) 0%, rgba(73,119,194,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(107,77,168,1) 0%, rgba(73,119,194,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', endColorstr='#4977c2', GradientType=1 ); /* IE6-9 */
+}
+#edTitle h2 {
+	color: #fff;
+}
+#expTitle h2 {
+	color: #fff;
+}
+#expTitle hr {
+		height: 4px;
+		width: 70px;
+		text-align: center;
+		position: relative;
+		background: rgba(255,255,255,0.5); /* Old browsers */
+		margin: 0 auto;
+		border: 0;
+}
+#edTitle hr {
+		height: 4px;
+		width: 70px;
+		text-align: center;
+		position: relative;
+		background: rgba(255,255,255,0.5); /* Old browsers */
+		margin: 0 auto;
+		border: 0;
+}
+.gray  {
+	background-color: #f6f6f6;
 }
 .timeline {
 	position: relative;
 	padding: 0;
 	list-style: none;
+
 }
 .timeline:before {
 	content: "";
@@ -669,7 +722,7 @@ header .intro-text {
 	left: 40px;
 	width: 2px;
 	margin-left: -1.5px;
-	background-color: #eee;
+	background-color: #cccccc;
 }
 .timeline>li {
 	position: relative;
@@ -709,7 +762,7 @@ header .intro-text {
 	width: 70px;
 	height: 70px;
 	margin-left: 0;
-	border: 1px solid #eee;
+	border: 1px solid #cccccc;
 	border-radius: 100%;
 	text-align: center;
 	background: #fff;
